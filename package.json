@@ -2,8 +2,8 @@
   "name": "email-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "type": "module",
+  "main": "dist/server.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "ts-node src/server.ts",
     "build": "tsc",
