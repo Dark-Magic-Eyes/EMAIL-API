@@ -11,12 +11,12 @@ app.use(express.json());
 
 // Gmail SMTP
 const transporter = nodemailer.createTransport({
-  host: "smtp.gmail.com",
+  host: "smtp.ethereal.email",
   port: 587,
   secure: false,
   auth: {
-    user: process.env.GMAIL_USER!,
-    pass: process.env.GMAIL_APP_PASS!,
+    user: process.env.ETHEREAL_USER!,
+    pass: process.env.ETHEREAL_PASS!,
   },
 });
 
